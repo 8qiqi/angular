@@ -1,0 +1,9 @@
+<app-child1 [arr]="data" (addItems)="add($event)"></app-child1>
+
+<app-child2 [arr]="data" (delItems)="del($event)" (changeIndex)="swap1($event)" >
+  <h3 class="head">正在进行<span>{{data.length}}</span></h3>
+</app-child2>
+
+<app-child2 [arr1]="data1" (delItems1)="del1($event)" (changeIndex1)="swap2($event)">
+  <h3 class="head">已经完成<span>{{data1.length}}</span></h3>
+</app-child2>
