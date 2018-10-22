@@ -1,0 +1,38 @@
+<div class="container">
+        <img src="../../../assets/images/kechengfenlei.png" class="fenlei">
+        <ul class="fenleitail">
+                <li>WEB前端开发</li>
+                <li>WEB后端开发</li>
+                <li>移动应用开发</li>
+                <li>软件测试</li>
+                <li>基础知识&实用工具</li>
+                <li>产品设计</li>
+                <li>软件设计</li>
+             </ul>   
+        <img src="../../../assets/images/kecehngtixi.png" class="tixi">
+        <ul class="tixitail">
+                <li>计算机基础技能</li>
+                <li>web前端工程师</li>
+                <li>开发工程师</li>
+                <li>软件设计</li>
+              </ul>
+        <ul class="mainul">
+          <li *ngFor="let course of kechengs;">
+            <a [routerLink]="['/course',course.id]">
+              <img src="{{course.images}}" alt="" class="courseimg">
+              <h5>{{course.courseName}}</h5>
+              <div>
+                <p>{{course.miaoshu}}</p>
+                <!-- <textarea>{{course.miaoshu}}</textarea> -->
+                <span class="keshi">课时</span>
+                <span class="keshi2">{{course.keshi}}</span>
+                <span class="renshu">人数</span>
+                <span  class="renshu2">{{course.person}}</span>
+              </div>
+          </a>
+          </li>
+        </ul>
+ </div>
+             
+       
+

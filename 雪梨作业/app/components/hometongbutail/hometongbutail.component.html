@@ -1,0 +1,16 @@
+
+<div>
+  <div class="one">
+      <span class="wojiarude">我加入的</span>
+      <input type="text" placeholder="输入同步课名称搜索">
+      <button><img src="../../../assets/images/sousuo.png" class="sousuo"></button>
+  </div>
+   
+    <ul *ngFor="let hometongbutail of hometongbutails;">
+      <li class="peitu"><img src="{{hometongbutail.peitu}}"></li>
+      <li class="mingzi">{{hometongbutail.mingzi}}</li>
+      <li class="renwushu"><img src="../../../assets/images/renwu.png" class="renwuimg">{{hometongbutail.renwushu}}</li>
+      <li class="renshu"><img src="../../../assets/images/renshu.png">{{hometongbutail.renshu}}</li>
+      <li class="fenshu"><span class="shuzhi">{{hometongbutail.fenshu}}</span></li>
+    </ul>
+</div>

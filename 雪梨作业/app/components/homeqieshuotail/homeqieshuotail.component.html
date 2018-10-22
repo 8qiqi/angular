@@ -1,0 +1,39 @@
+<div class="container">
+    <span>学霸，学渣，偶想说～</span>
+    <div class="divtop">
+      <div class="divbottom">
+        <ul>
+         <li style="background-image:url(../../../assets/images/qingxie.png)"></li>
+         <li style="background-image:url(../../../assets/images/jiacu.png)"></li>
+         <li style="background-image:url(../../../assets/images/mulu.png)"></li>
+         <li style="background-image:url(../../../assets/images/u.png)"></li>
+         <li style="background-image:url(../../../assets/images/tupian.png)"></li>
+         <li style="background-image:url(../../../assets/images/tianse.png)"></li>
+         <li style="background-image:url(../../../assets/images/mulu.png)"></li>
+         <li style="background-image:url(../../../assets/images/lianjie.png)"></li>
+         <li style="background-image:url(../../../assets/images/mulu.png)"></li>
+         <li style="background-image:url(../../../assets/images/suofang.png)"></li>
+        </ul>
+      </div>
+      <input type="text" class="fapinglun">
+    </div>
+    <div class="divbestbottom">
+      <span class="huati">话题</span>
+      <span class="fachangwen">发长文</span>
+      <button class="fabu">发布</button>
+    </div>
+    <div *ngFor="let shequ of shequs;" class="left">
+        <img src="{{shequ.touxiang}}" class="touxiang">
+        <img src="{{shequ.peitu}}" class="peitu">
+        <h5>{{shequ.tieming}}</h5>
+        <p class="miaoshu">{{shequ.miaoshu}}</p>
+        <span class="renming">{{shequ.renming}}</span>
+        <span class="time">{{shequ.time}}</span>
+        <span class="read">阅读</span>
+        <span class="readrenshu">{{shequ.readrenshu}}</span>
+        <span class="pinglun">评论</span>
+        <span class="pinglunrenshu">{{shequ.pinglunrenshu}}</span>
+        <!-- <hr> -->
+    </div> 
+
+  </div>

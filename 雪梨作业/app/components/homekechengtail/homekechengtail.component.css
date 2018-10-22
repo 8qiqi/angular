@@ -1,0 +1,26 @@
+.top{
+    position: absolute;
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    /* background-color: blueviolet; */
+}
+.weitijiao{
+    /* position: absolute; */
+    margin-left:20px;
+}
+.yiwancheng{
+    margin-left:70px;
+}
+.yiwanjie{
+    margin-left:120px;
+}
+
+
+
+.right{
+    position: absolute;
+    margin-left: 20px;
+    margin-top:40px;
+    width:760px;
+    /* background-color: blue; */
+}

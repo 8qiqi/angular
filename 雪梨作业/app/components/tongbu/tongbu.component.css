@@ -1,0 +1,29 @@
+.container{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.container li{
+    width: 250px;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+}
+span{
+    margin-right: 20px;
+}
+.courseimg{
+    margin-bottom: 30px;
+}
+h3{
+    margin-top: 5px;
+    text-align: center;
+}
+button{
+    margin-left: 50px;
+    /* background-color: #CD3700; */
+    width: 50px;
+    height: 22px;
+    /* background-image: url(../../../assets/images/shenqing.png) */
+}
