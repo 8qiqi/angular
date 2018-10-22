@@ -1,0 +1,53 @@
+.ul1 li{
+    float: left;
+}
+.name{
+    font-size: 1.2em;
+}
+.jiezhi{
+    margin-left: 15px;
+    border:1px solid aquamarine;
+    color: aquamarine;
+    height: 22px;
+    line-height: 22px;
+    margin-top:5px;
+}
+.yanshou{
+    margin-left: 15px;
+    border:1px solid aquamarine;
+    color: aquamarine;
+    height: 22px;
+    line-height: 22px;
+    margin-top:5px;
+}
+.fenshu{
+    margin-left: 450px;
+}
+.type{
+    position: absolute;
+    margin-top: 30px;
+    width:757px;
+    height:40px;
+    line-height: 35px;
+    border: 1px solid grey;
+    background-color: #F7F7F7;
+}
+.ul1{
+    margin-bottom: 60px;
+    /* background-color: gray; */
+    border: 1px solid grey;
+    height:30px;
+    line-height: 30px;
+}
+.yanjing{
+    height:30px;
+    width: 40px;
+    margin-left: 450px;
+    border: white;
+}
+.xia{
+    height:34px;
+    width: 40px;
+    border: white;
+    /* margin-top:2px; */
+}

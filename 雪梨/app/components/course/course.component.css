@@ -1,0 +1,79 @@
+.container{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.mainul li{
+    width: 240px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+}
+p{
+    width:240px;
+    height:70px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    color:grey;
+    font-size: smaller;
+    text-align: center;
+}
+.renshu{
+    position: absolute;
+    margin-left: 100px;
+    color:grey;
+}
+.keshi{
+    margin-left: 10px;
+    color:grey;
+}
+.renshu2{
+    position: absolute;
+    margin-left: 135px;
+    color:grey;
+}
+.keshi2{
+    margin-left: 15px;
+    color:grey;
+}
+.courseimg{
+    width:240px;
+    height:180px;
+}
+.fenlei{
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+.tixi{
+    border: 1px solid gainsboro;
+    margin-bottom: 10px; 
+}
+.fenleitail{
+    display: none;
+    position: absolute;
+    margin-top: -13px;
+    /* margin-left: 10px; */
+    width: 150px;
+    text-align: center;
+    background-color: #FCFCFC;
+}
+.tixitail{
+    display: none;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 90px;
+    width: 150px;
+    text-align: center;
+    background-color: #FCFCFC;
+}
+.fenlei:hover + .fenleitail{
+    display: block;
+}
+.tixi:hover + .tixitail{
+    display: block;
+}

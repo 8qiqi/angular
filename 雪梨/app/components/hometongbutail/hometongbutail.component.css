@@ -1,0 +1,64 @@
+.wojiarude{
+    margin-left: 20px;
+    margin-top:10px;
+    font-size:1.2em;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: orange;
+    /* border-bottom: 2px solid orange; */
+}
+input{
+    margin-left: 450px;
+    height:30px ;
+}
+/* .sousuo{
+    position: absolute;
+} */
+button{
+    position: absolute;
+    margin-top:10px;
+    height:33px;
+}
+.one{
+    /* background-color: aqua; */
+    height:50px;
+    border-bottom: 2px solid grey;
+}
+.peitu{
+    margin-top:20px;
+}
+.mingzi{
+    margin-top:-130px;
+    margin-left:250px;
+    font-size:20px;
+}
+.renwushu{
+    margin-top:70px;
+    margin-left:260px;
+}
+.renshu{
+    margin-top:-20px;
+    margin-left:330px;
+}
+.renwuimg{
+    margin-right: 10px;
+}
+.fenshu{
+    width:130px;
+    height: 130px;
+    border-left: 4px solid #F8F8FF;
+    margin-top:-120px;
+    margin-left: 620px;
+    background-image: url(../../../assets/images/yuanhuan.png);
+}
+ul{
+    border-bottom: 3px solid #F8F8FF;
+    height: 180px;
+}
+.shuzhi{
+    position: absolute;
+    margin-top:50px;
+    margin-left: 35px;
+}

@@ -1,0 +1,95 @@
+.top{
+    margin-top:50px;
+    margin-left:400px;
+    font-size:20px;
+    width:800px;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    line-height: 50px;
+}
+/* .zhengzaixuexi{
+    font-size:20px;
+} */
+.shoudaodezan{
+    margin-left: 100px;
+}
+.pinglun{
+    margin-left: 190px;
+}
+.left{
+    width:750px;
+    height:150px;
+    border-bottom:1px solid #CDCDC1;
+    /* margin-bottom: 10px; */
+    /* background-color: aqua; */
+}
+.touxiang{
+    position: absolute;
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+    margin-top:30px;
+}
+.peitu{
+    position: absolute;
+    width: 110px;
+    height:80px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+h5{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+.miaoshu{
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 65px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:normal;
+    width: 650px;
+    color:grey;
+    /* background-color: red; */
+}
+.renming{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    color:#CDCDC1;
+}
+.time{
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 70px;
+    color:#CDCDC1;
+}
+.read{
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 580px;
+    color:#CDCDC1;
+}
+.readrenshu{
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 620px;
+    color:#CDCDC1;
+}
+.pinglun{
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 660px;
+    color:#CDCDC1;
+}
+.pinglunrenshu{
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 700px;
+    color:#CDCDC1;
+}
+.container{
+    position: absolute;
+    margin-top:-70px;
+}

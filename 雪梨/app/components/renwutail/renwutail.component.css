@@ -1,0 +1,50 @@
+.top{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* background-color: blueviolet; */
+}
+.weitijiao{
+    /* position: absolute; */
+    margin-left:20px;
+}
+.yiwancheng{
+    margin-left:70px;
+}
+.yiwanjie{
+    margin-left:120px;
+}
+input{
+    margin-top: 30px;
+    margin-left:150px;
+    height: 25px;
+}
+button{
+    position: absolute;
+    margin-top: 31px;
+    /* margin-left:150px; */
+}
+.bottom{
+    position: absolute;
+    margin-left: 400px;
+    margin-top:140px;
+    width: 700px;
+    height: 350px;
+    border-top: 1px solid grey;
+}
+.izimu{
+    margin-left:300px;
+    margin-top:100px;
+    border-radius: 70%;
+}
+.tishi{
+    margin-left:200px;
+    margin-top:30px;
+}
+.right{
+    position: absolute;
+    margin-left: 20px;
+    margin-top:100px;
+    width:760px;
+    /* background-color: blue; */
+}
